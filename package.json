@@ -10,7 +10,8 @@
     "ytdl-core": "^4.9.1",
     "xml2js": "^0.4.23",
     "express": "^4.17.1",
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "node-fetch": "^2.6.6"
   },
   "author": "Shashvath",
   "license": "ISC"
