@@ -1,10 +1,11 @@
 process.env.YTDL_NO_UPDATE = 'true';
-const ytdl = require('ytdl-core');
-const xml2js = require('xml2js');
 
 const express = require('express');
 const cors = require('cors');
 const fetch = require('node-fetch');
+const ytdl = require('ytdl-core');
+const xml2js = require('xml2js');
+
 const app = express();
 app.use(cors());
 const port = 3000;
