@@ -1,3 +1,4 @@
+process.env.YTDL_NO_UPDATE = 'true';
 const ytdl = require('ytdl-core');
 const xml2js = require('xml2js');
 
