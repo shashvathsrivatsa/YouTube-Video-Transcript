@@ -1,0 +1,17 @@
+{
+  "name": "transcript",
+  "version": "1.0.0",
+  "description": "Gets transcript from YouTube videos",
+  "main": "transcript.js",
+  "scripts": {
+    "start": "node transcript.js"
+  },
+  "dependencies": {
+    "ytdl-core": "^4.9.1",
+    "xml2js": "^0.4.23",
+    "express": "^4.17.1",
+    "cors": "^2.8.5"
+  },
+  "author": "Shashvath",
+  "license": "ISC"
+}
