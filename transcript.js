@@ -8,7 +8,7 @@ const xml2js = require('xml2js');
 
 const app = express();
 app.use(cors());
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 async function getTranscript(url) {
     try {
@@ -64,5 +64,5 @@ app.get('/transcript', async (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}`);
+    console.log(`Server running at port ${port}`);
 });
